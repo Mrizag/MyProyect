@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>olis</title>
+<style>
+  body {
+    background-image: url('/29dd150b0c59ec559f62f08bb87da090.jpg');
+    background-size: cover; /* Para cubrir todo el fondo */
+    /* Opcional: puedes ajustar otras propiedades como la repetición de la imagen, la posición, etc. */
+  }
+</style>
+</head>
+<body>
+<!-- Contenido de tu página aquí -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saludo y opciones</title>
+  <style>
+    body {
+      font-family: cursive;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      color: white;
+    }
+    .question {
+      font-size: 1.5em;
+      color: white;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: cursive;
+    }
+    #siChoriz {
+      background-color: purple;
+      color: white;
+    }
+    #noWey {
+      background-color: palevioletred;
+      color: black;
+    }
+    img {
+      width: 170px;
+      height: 170px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hola Veriiii</h1>
+  <p class="question">¿Le puedo decir algo?</p>
+  <div>
+    <button id="siChoriz" class="button" onclick="window.location.href='/oli.html'">Si choriz</button>
+    <button id="noWey" class="button" onclick="changePosition()">No wey</button>
+  </div>
+  <img src="/3c0a1d657aa12fa18b205f9dac125ec3.jpg" alt="Imagen">
+  
+  <script>
+    function changePosition() {
+      var button = document.getElementById('noWey');
+      button.style.position = 'absolute';
+      button.style.left = Math.random() * 90 + '%';
+      button.style.top = Math.random() * 90 + '%';
+    }
+  </script>
+</body>
+</html>
+
+</body>
+</html>
